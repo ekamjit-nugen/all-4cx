@@ -1,0 +1,32 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react-hooks/recommended"],
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": ["react", "react-hooks"],
+    "rules": {
+        "react/jsx-no-bind": ["error", {
+          "allowArrowFunctions": true,
+          "allowBind": false,
+          "ignoreRefs": true
+        }],
+        "react/no-did-update-set-state": "error",
+        "react/no-unknown-property": "error",
+        "react/no-unused-prop-types": "off",
+        "react/prop-types": "off",
+        "react/react-in-jsx-scope": "off",
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "no-unused-vars": "off",
+        "react/display-name": "off",
+        "no-undef": "off"
+      }
+}  

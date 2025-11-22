@@ -1,0 +1,47 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy Node.js app to Azure Web App - thinkgradient-4cx-frontend
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+env:
+  env_var: ${{ vars.ENVPROD }}
+  NODE_OPTIONS: --max_old_space_size=16384
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['18.x']
+    steps:
+      - uses: actions/checkout@v4
+      - name: echo env
+        run: 
+           |
+           echo $env_var > .env
+      - name: Set up Node.js version
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: npm install, build, and test
+        run: |
+          npm install --legacy-peer-deps
+          npm run build --if-present
+          npm run test --if-present
+        working-directory: '.'
+      - name: 'Deploy to Azure Web App'
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'thinkgradient-4cx-frontend'
+          slot-name: 'Production'
+          package: ./build
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}

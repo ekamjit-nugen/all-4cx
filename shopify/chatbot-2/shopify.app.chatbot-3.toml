@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "47cacf69ae2ee07ba74beee2b9b4f7e2"
+application_url = "https://bidding-volvo-drums-holdings.trycloudflare.com"
+embedded = true
+name = "chatbot-3"
+handle = "chatbot-181"
+
+[build]
+dev_store_url = "rockzeus.myshopify.com"
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://bidding-volvo-drums-holdings.trycloudflare.com/auth/callback",
+  "https://bidding-volvo-drums-holdings.trycloudflare.com/auth/shopify/callback",
+  "https://bidding-volvo-drums-holdings.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false

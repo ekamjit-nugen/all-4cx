@@ -1,0 +1,529 @@
+2024-11-06 12:02:28 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:02:28 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:02:43 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:02:43 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:03:21 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:03:21 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:03:46 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:03:46 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:48:58 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:48:58 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:49:36 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:49:36 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:56:12 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:56:12 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:57:37 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 12:57:37 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 14:06:20 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-06 14:06:20 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-07 12:08:18 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-07 12:08:18 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-07 14:17:25 [ERROR]: Azure OpenAI API instance name not found
+Error: Azure OpenAI API instance name not found
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:462:23)
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/FlowiseChatOpenAI.js:9:9)
+    at AzureChatOpenAI_ChatModels.init (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/AzureChatOpenAI/AzureChatOpenAI.js:182:23)
+    at async buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:445:36)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:262:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:33:29)
+2024-11-07 14:17:25 [ERROR]: [server]: Error: Error: Azure OpenAI API instance name not found
+Error: Error: Azure OpenAI API instance name not found
+    at buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:494:19)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:262:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:33:29)
+2024-11-07 14:18:33 [ERROR]: Azure OpenAI API instance name not found
+Error: Azure OpenAI API instance name not found
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:462:23)
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/FlowiseChatOpenAI.js:9:9)
+    at AzureChatOpenAI_ChatModels.init (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/AzureChatOpenAI/AzureChatOpenAI.js:182:23)
+    at async buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:445:36)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:262:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:33:29)
+2024-11-07 14:18:33 [ERROR]: [server]: Error: Error: Azure OpenAI API instance name not found
+Error: Error: Azure OpenAI API instance name not found
+    at buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:494:19)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:262:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:33:29)
+2024-11-07 17:09:12 [ERROR]: Azure OpenAI API instance name not found
+Error: Azure OpenAI API instance name not found
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:462:23)
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/FlowiseChatOpenAI.js:9:9)
+    at AzureChatOpenAI_ChatModels.init (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/AzureChatOpenAI/AzureChatOpenAI.js:182:23)
+    at async buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:445:36)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:262:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:33:29)
+2024-11-07 17:09:12 [ERROR]: [server]: Error: Error: Azure OpenAI API instance name not found
+Error: Error: Azure OpenAI API instance name not found
+    at buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:494:19)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:262:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:33:29)
+2024-11-07 19:45:49 [ERROR]: Azure OpenAI API instance name not found
+Error: Azure OpenAI API instance name not found
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:462:23)
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/FlowiseChatOpenAI.js:9:9)
+    at AzureChatOpenAI_ChatModels.init (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/AzureChatOpenAI/AzureChatOpenAI.js:182:23)
+    at async buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:445:36)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:267:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:36:29)
+2024-11-07 19:45:49 [ERROR]: [server]: Error: Error: Azure OpenAI API instance name not found
+Error: Error: Azure OpenAI API instance name not found
+    at buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:494:19)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:267:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:36:29)
+2024-11-07 19:46:07 [ERROR]: Azure OpenAI API version not found
+Error: Azure OpenAI API version not found
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:468:23)
+    at new ChatOpenAI (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/ChatOpenAI/FlowiseChatOpenAI.js:9:9)
+    at AzureChatOpenAI_ChatModels.init (/Users/tusharthakur/Documents/Flowise/packages/components/dist/nodes/chatmodels/AzureChatOpenAI/AzureChatOpenAI.js:182:23)
+    at async buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:445:36)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:267:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:36:29)
+2024-11-07 19:46:07 [ERROR]: [server]: Error: Error: Azure OpenAI API version not found
+Error: Error: Azure OpenAI API version not found
+    at buildFlow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/index.js:494:19)
+    at async utilBuildChatflow (/Users/tusharthakur/Documents/Flowise/packages/server/dist/utils/buildChatflow.js:267:36)
+    at async createAndStreamInternalPrediction (/Users/tusharthakur/Documents/Flowise/packages/server/dist/controllers/internal-predictions/index.js:36:29)
+2024-11-07 19:46:21 [ERROR]: [server]: Error: 404 Resource not found
+Error: 404 Resource not found
+    at APIError.generate (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/error.js:54:20)
+    at OpenAI.makeStatusError (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:275:33)
+    at OpenAI.makeRequest (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:760:29
+    at async RetryOperation._fn (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2024-11-07 19:46:28 [ERROR]: [server]: Error: 404 Resource not found
+Error: 404 Resource not found
+    at APIError.generate (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/error.js:54:20)
+    at OpenAI.makeStatusError (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:275:33)
+    at OpenAI.makeRequest (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:760:29
+    at async RetryOperation._fn (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2024-11-07 19:50:01 [ERROR]: [server]: Error: 404 Resource not found
+Error: 404 Resource not found
+    at APIError.generate (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/error.js:54:20)
+    at OpenAI.makeStatusError (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:275:33)
+    at OpenAI.makeRequest (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:760:29
+    at async RetryOperation._fn (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2024-11-07 19:50:23 [ERROR]: [server]: Error: 404 Resource not found
+Error: 404 Resource not found
+    at APIError.generate (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/error.js:54:20)
+    at OpenAI.makeStatusError (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:275:33)
+    at OpenAI.makeRequest (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:760:29
+    at async RetryOperation._fn (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2024-11-07 19:52:25 [ERROR]: [server]: Error: 404 Resource not found
+Error: 404 Resource not found
+    at APIError.generate (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/error.js:54:20)
+    at OpenAI.makeStatusError (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:275:33)
+    at OpenAI.makeRequest (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:760:29
+    at async RetryOperation._fn (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2024-11-07 19:56:57 [ERROR]: [server]: Error: Connection error.
+Error: Connection error.
+    at OpenAI.makeRequest (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:304:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:760:29
+    at async RetryOperation._fn (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2024-11-07 19:57:41 [ERROR]: [server]: Error: Connection error.
+Error: Connection error.
+    at OpenAI.makeRequest (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:304:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:760:29
+    at async RetryOperation._fn (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2024-11-07 19:58:09 [ERROR]: [server]: Error: 401 status code (no body)
+Error: 401 status code (no body)
+    at APIError.generate (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/error.js:48:20)
+    at OpenAI.makeStatusError (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:275:33)
+    at OpenAI.makeRequest (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/openai@4.51.0_encoding@0.1.13/node_modules/openai/core.js:318:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@langchain+openai@0.0.30_encoding@0.1.13_langchain@0.2.11_@aws-sdk+client-s3@3.529.1_@aws-sdk_gxtvuxdeblz22arlqair3je7zu/node_modules/@langchain/openai/dist/chat_models.cjs:760:29
+    at async RetryOperation._fn (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/p-retry@4.6.2/node_modules/p-retry/index.js:50:12)
+2024-11-08 12:12:24 [ERROR]: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-08 12:12:24 [ERROR]: uncaughtException:  listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1904:16)
+    at listenInCluster (node:net:1961:12)
+    at Server.listen (node:net:2063:7)
+    at Object.start (/Users/tusharthakur/Documents/Flowise/packages/server/dist/index.js:263:12)
+    at async /Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:169:17
+    at async Start.run (/Users/tusharthakur/Documents/Flowise/packages/server/dist/commands/start.js:165:9)
+    at async Start._run (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/command.js:80:22)
+    at async Config.runCommand (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/@oclif+core@1.26.2/node_modules/@oclif/core/lib/config/config.js:301:25)
+2024-11-08 19:00:19 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-13 14:26:29 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-13 19:13:47 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-13 19:13:47 [ERROR]: uncaughtException: write EIO
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:954:11)
+    at Socket._write (node:net:966:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Console.log (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/winston@3.12.0/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/winston-transport@4.7.0/node_modules/winston-transport/modern.js:82:19)
+    at doWrite (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Writable.write (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at DerivedLogger.emit (node:domain:488:12)
+    at addChunk (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:161:15)
+    at writeGeneric (node:internal/stream_base_commons:152:3)
+    at Socket._writeGeneric (node:net:954:11)
+    at Socket._write (node:net:966:8)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at Console.log (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/winston@3.12.0/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/winston-transport@4.7.0/node_modules/winston-transport/modern.js:82:19)
+    at doWrite (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Writable.write (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:531:35)
+    at DerivedLogger.emit (node:domain:488:12)
+    at addChunk (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/readable-stream@3.6.2/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+2024-11-14 15:37:26 [ERROR]: ❌ [server]: Error during Data Source initialization: database "test" does not exist
+error: database "test" does not exist
+    at Parser.parseErrorMessage (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/pg-protocol@1.6.0/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/pg-protocol@1.6.0/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/pg-protocol@1.6.0/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/tusharthakur/Documents/Flowise/node_modules/.pnpm/pg-protocol@1.6.0/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)
+2024-11-14 15:40:57 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-18 13:29:38 [ERROR]: ❌ [server]: Error during Data Source initialization:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)
+2024-11-18 13:30:39 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-18 13:30:46 [ERROR]: ❌ [server]: Error during Data Source initialization:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)
+2024-11-18 13:30:49 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-18 13:33:49 [ERROR]: ❌ [server]: Error during Data Source initialization:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)
+2024-11-18 13:34:02 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-18 13:34:31 [ERROR]: ❌ [server]: Error during Data Source initialization:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+2024-11-18 13:48:35 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-18 18:23:37 [ERROR]: ❌ [server]: Error during Data Source initialization:
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1118:18)
+    at afterConnectMultiple (node:net:1685:7)
+2024-11-18 18:28:12 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-18 18:46:04 [ERROR]: ❌ [server]: Error during Data Source initialization: getaddrinfo ENOTFOUND postgres
+Error: getaddrinfo ENOTFOUND postgres
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2024-11-18 18:46:36 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')
+2024-11-18 18:46:43 [ERROR]: ❌ [server]: Error during Data Source initialization: getaddrinfo ENOTFOUND postgres
+Error: getaddrinfo ENOTFOUND postgres
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2024-11-18 18:47:36 [ERROR]: ❌[server]: Flowise Server shut down error: TypeError: Cannot read properties of undefined (reading 'flush')

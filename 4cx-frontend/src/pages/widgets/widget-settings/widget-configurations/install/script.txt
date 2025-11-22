@@ -1,0 +1,68 @@
+import { env } from "./env.js";
+const { apiKey, userId, flowId, serverURL, widgetId, cdnFileLink } = env;
+
+// selecting the component dom-manupulation
+const chatbot = document.querySelector("chatbot-component");
+const searchbar = document.querySelector("searchbar-component");
+
+// Validate API Key
+const validateCDNApiKey = async () => {
+  const CDNValidationRequestURL = `${serverURL}/?apiKey=${apiKey}`;
+
+  try {
+    const response = await fetch(CDNValidationRequestURL, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    const data = await response.json();
+
+    if (!response.ok) {
+      console.error("Error:", data.error);
+      return { success: false, error: data.error };
+    }
+
+    // generate cdn files and import
+
+    // Store token in cookie
+    const token = data.token;
+    const expires = new Date(Date.now() + 60 * 60 * 1000).toUTCString();
+    document.cookie = `cdn-access-token=${token}; expires=${expires}; path=/; SameSite=Strict; Secure`;
+
+    return { success: true };
+  } catch (error) {
+    console.error("Error validating API key:", error);
+    return { success: false, error: "Validation failed" };
+  }
+};
+
+const loadExternalScripts = () => {
+  const scriptModule = document.createElement("script");
+  scriptModule.type = "module";
+  scriptModule.src = cdnFileLink;
+  document.head.appendChild(scriptModule);
+};
+
+// Add Properties Dynamically to HTML Tags
+const addPropertiesToComponents = () => {
+  chatbot.setAttribute("flow-id", flowId);
+
+  // Add properties to searchbar-component
+  searchbar.setAttribute("user-id", userId); // Replace with a static value if needed
+  searchbar.setAttribute("api-key", apiKey);
+  searchbar.setAttribute("widget-id", widgetId);
+  searchbar.setAttribute("flow-id", flowId);
+};
+
+// Main Function
+(async () => {
+  const validationResult = await validateCDNApiKey();
+
+  if (validationResult.success) {
+    addPropertiesToComponents();
+    loadExternalScripts();
+  } else {
+    console.error("Validation failed:", validationResult.error);
+  }
+})();

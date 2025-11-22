@@ -1,0 +1,318 @@
+/**
+=========================================================
+* Soft UI Dashboard PRO React - v4.0.2
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-pro-react
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+import { useEffect, useState } from "react";
+
+// react-router-dom components
+import { useLocation, NavLink, useNavigate } from "react-router-dom";
+
+// prop-types is a library for typechecking of props.
+import PropTypes from "prop-types";
+
+// @mui material components
+import List from "@mui/material/List";
+import Divider from "@mui/material/Divider";
+import Link from "@mui/material/Link";
+import Icon from "@mui/material/Icon";
+
+// Soft UI Dashboard PRO React components
+import SoftBox from "components/soft-box";
+import SoftTypography from "components/soft-typography";
+
+// Soft UI Dashboard PRO React example components
+import SidenavCollapse from "./sidenav-collapse";
+import SidenavList from "./sidenav-list";
+import SidenavItem from "./sidenav-item";
+
+// Custom styles for the Sidenav
+import SidenavRoot from "./sidenav-root";
+
+// Soft UI Dashboard PRO React context
+import { useSoftUIController, setMiniSidenav } from "../context";
+import { useDispatch } from "react-redux";
+import { updateFlowStatus } from "store/features/reactFlowSlice";
+import { updateFlowData } from "store/features/promptSlice";
+import { initialEdges, initialNodes } from "pages/orchestrate/create/react-flow/consts";
+import { updateReactFlowData } from "store/features/reactFlowSlice";
+import { initialOrchestrateState } from "pages/orchestrate/create";
+import sidenavLogoLabel from "./styles/sidenav";
+import { updateNavigationPath } from "store/features/projectIdSlice";
+import { useSelector } from "react-redux";
+
+function Sidenav({ brand = "", brandName, routes, selectedProjectName, ...rest }) {
+  const [openCollapse, setOpenCollapse] = useState(false);
+  const [openNestedCollapse, setOpenNestedCollapse] = useState(false);
+  const [controller, dispatch] = useSoftUIController();
+  const { miniSidenav, transparentSidenav } = controller;
+  const location = useLocation();
+  const dispatchRedux = useDispatch();
+  const { pathname } = location;
+  const collapseName = pathname.split("/").slice(1)[0];
+  const itemName = pathname.split("/").slice(1)[1];
+
+  // const closeSidenav = () => setMiniSidenav(dispatch, true);
+  const searchFlowUnsavedChanges = useSelector((state) => state.searchFlow.unSaveChanges);
+  const retrievalFlowUnsavedChanges = useSelector((state) => state.retrieval.unSaveChanges);
+  const canvas = useSelector((state) => state.canvas)
+
+  const navigate = useNavigate();
+  useEffect(() => {
+    // A function that sets the mini state of the sidenav.
+    function handleMiniSidenav() {
+      setMiniSidenav(dispatch, window.innerWidth < 1200);
+    }
+
+    /** 
+     The event listener that's calling the handleMiniSidenav function when resizing the window.
+    */
+    // window.addEventListener("resize", handleMiniSidenav);
+
+    // Call the handleMiniSidenav function to set the state with the initial value.
+    // handleMiniSidenav();
+
+    // Remove event listener on cleanup
+    // return () => window.removeEventListener("resize", handleMiniSidenav);
+  }, [dispatch, location]);
+
+  // Render all the nested collapse items from the routes.js
+  const renderNestedCollapse = (collapse) => {
+    const template = collapse.map(({ name, route, key, href }) =>
+      href ? (
+        <Link
+          key={key}
+          href={href}
+          target="_blank"
+          rel="noreferrer"
+          sx={{ textDecoration: "none" }}
+        >
+          <SidenavItem name={name} nested />
+        </Link>
+      ) : (
+        <NavLink to={route} key={key} sx={{ textDecoration: "none" }}>
+          <SidenavItem name={name} active={route === pathname} nested />
+        </NavLink>
+      )
+    );
+
+    return template;
+  };
+
+  // Render the all the collpases from the routes.js
+  const renderCollapse = (collapses) =>
+    collapses.map(({ name, collapse, route, href, key, onClick }) => {
+      let returnValue;
+
+      if (collapse) {
+        returnValue = (
+          <SidenavItem
+            key={key}
+            name={name}
+            active={key === itemName}
+            open={openNestedCollapse === name}
+            onClick={() =>
+              {openNestedCollapse === name
+                ? setOpenNestedCollapse(false)
+                : setOpenNestedCollapse(name)}
+            }
+          >
+            {renderNestedCollapse(collapse)}
+          </SidenavItem>
+        );
+      } else {
+        returnValue = href ? (
+          <Link
+            href={href}
+            key={key}
+            target="_blank"
+            rel="noreferrer"
+            sx={{ textDecoration: "none" }}
+          >
+            <SidenavItem name={name} active={key === itemName} />
+          </Link>
+        ) : (
+          <Link
+            // to={route}
+            key={key}
+            sx={{ textDecoration: "none" }}
+            onClick={() => {
+              if (name === "Create Flow") {
+                const json = {
+                  edges: initialEdges,
+                  nodes: initialNodes,
+                };
+                dispatchRedux(updateFlowData(json));
+                dispatchRedux(updateFlowStatus(false));
+                dispatchRedux(updateReactFlowData(initialOrchestrateState));
+              }
+              if (searchFlowUnsavedChanges || retrievalFlowUnsavedChanges) {
+                dispatchRedux(updateNavigationPath(route));
+              } else {
+                if(canvas?.isDirty){
+                  if(window.confirm('You have unsaved changes! Do you want to navigate away?')){
+                    navigate(route);
+                  }
+                }else{
+                  navigate(route);
+                }
+              }
+            }}
+          >
+            <SidenavItem name={name} active={key === itemName} />
+          </Link>
+        );
+      }
+      return <SidenavList key={key}>{returnValue}</SidenavList>;
+    });
+
+  // Render all the routes from the routes.js (All the visible items on the Sidenav)
+  const renderRoutes = routes.map(
+    ({ type, name, icon, title, collapse, noCollapse, key, href, route }) => {
+      let returnValue;
+
+      if (type === "collapse") {
+        if (href) {
+          returnValue = (
+            <Link
+              href={href}
+              key={key}
+              target="_blank"
+              rel="noreferrer"
+              sx={{ textDecoration: "none" }}
+            >
+              <SidenavCollapse
+                name={name}
+                icon={icon}
+                active={key === collapseName}
+                noCollapse={noCollapse}
+              />
+            </Link>
+          );
+        } else if (noCollapse && route) {
+          returnValue = (
+            <NavLink to={route} key={key}>
+              <SidenavCollapse
+                name={name}
+                icon={icon}
+                noCollapse={noCollapse}
+                active={key === collapseName}
+              >
+                {collapse ? renderCollapse(collapse) : null}
+              </SidenavCollapse>
+            </NavLink>
+          );
+        } else {
+          returnValue = (
+            <SidenavCollapse
+              key={key}
+              name={name}
+              icon={icon}
+              active={key === collapseName}
+              open={openCollapse === key}
+              onClick={() => {(openCollapse === key ? setOpenCollapse(false) : setOpenCollapse(key))}}
+            >
+              {collapse ? renderCollapse(collapse) : null}
+            </SidenavCollapse>
+          );
+        }
+      } else if (type === "title") {
+        returnValue = (
+          <SoftTypography
+            key={key}
+            display="block"
+            variant="caption"
+            fontWeight="bold"
+            textTransform="uppercase"
+            opacity={1}
+            pl={3}
+            mt={4}
+            mb={1}
+            ml={1}
+          >
+            {title}
+          </SoftTypography>
+        );
+      } else if (type === "divider") {
+        returnValue = <Divider key={key} />;
+      }
+
+      return returnValue;
+    }
+  );
+
+  return (
+    <SidenavRoot {...rest} variant="permanent" ownerState={{ transparentSidenav, miniSidenav }}>
+      <SoftBox pt={3} pb={1} px={4} textAlign="center">
+        <SoftBox
+          display={{ xs: "block", xl: "none" }}
+          position="absolute"
+          top={0}
+          right={0}
+          p={1.625}
+          // onClick={closeSidenav}
+          sx={{ cursor: "pointer" }}
+        >
+          <SoftTypography variant="h6" color="secondary">
+            <Icon sx={{ fontWeight: "bold" }}>close</Icon>
+          </SoftTypography>
+        </SoftBox>
+        <SoftBox component={NavLink} to="/" display="flex" alignItems="center">
+          {brand && <SoftBox component="img" src={brand} alt="Soft UI Logo" width="2rem" />}
+          <SoftBox
+            width={!brandName && "100%"}
+            sx={(theme) => sidenavLogoLabel(theme, { miniSidenav })}
+          >
+            <SoftTypography component="h6" variant="button" fontWeight="medium">
+              {brandName}
+            </SoftTypography>
+          </SoftBox>
+        </SoftBox>
+      </SoftBox>
+      {/* <SoftBox
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          paddingTop: "10px",
+          alignItems: "center",
+          textDecoration: "underline",
+        }}
+      >
+        {!miniSidenav && (
+          <SoftTypography fontSize="14px" fontWeight="bold">
+            Project - {selectedProjectName}
+          </SoftTypography>
+        )}
+      </SoftBox> */}
+      <Divider />
+      <List>{renderRoutes}</List>
+    </SidenavRoot>
+  );
+}
+
+// Setting default values for the props of Sidenav
+// Sidenav.defaultProps = {
+//   color: "info",
+//   brand: "",
+// };
+
+// Typechecking props for the Sidenav
+Sidenav.propTypes = {
+  color: PropTypes.oneOf(["primary", "secondary", "info", "success", "warning", "error", "dark"]),
+  brand: PropTypes.string,
+  brandName: PropTypes.string.isRequired,
+  routes: PropTypes.arrayOf(PropTypes.object).isRequired,
+  selectedProjectName: PropTypes.string,
+};
+
+export default Sidenav;

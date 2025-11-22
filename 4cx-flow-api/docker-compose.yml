@@ -1,0 +1,77 @@
+version: '3.8'
+
+services:
+  4cx-main:
+    platform: linux/amd64
+    container_name: 4cx-main
+    build:
+      context: ./4cx-main
+    environment:
+      - PORT=9002
+      - MONGO_URI=mongodb+srv://ekamjit:nb3ZOLCEgssDS9eD@thinkgradientlabs.ei2ti48.mongodb.net/?retryWrites=true&w=majority&appName=thinkgradientlabs/test
+      - KAFKA_BROKER=kafka:29092
+      - REDIS_URL=rediss:'//tf-4cx-ai-voice-redis.redis.cache.windows.net:6380'
+      - REDIS_PASSWORD='M7UGV3hnuA1hwIdU7ma9eXqUFM6q5SEiKAzCaMIakAY='
+    ports:
+      - '9002:9002'
+    depends_on:
+      - kafka
+
+  4cx-flow:
+    platform: linux/amd64
+    container_name: 4cx-flow
+    build:
+      context: ./4cx-flow
+    environment:
+      - PORT=3000
+      - DATABASE_HOST=gradientpostgres.postgres.database.azure.com
+      - DATABASE_PORT=5432
+      - DATABASE_USER=gradientadmin
+      - DATABASE_PASSWORD=WelcomeCN@123
+      - DATABASE_NAME=4cxdb
+    ports:
+      - '3000:3000'
+
+  api-gateway:
+    platform: linux/amd64
+    container_name: 4cx-api-gateway
+    build:
+      context: ./api-gateway
+    ports:
+      - '8000:8000'
+    environment:
+      - PORT=8000
+
+  zookeeper:
+    image: zookeeper
+    container_name: zookeeper
+    ports:
+      - '2181:2181'
+
+  kafka:
+    image: confluentinc/cp-kafka
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - '9092:9092'
+    expose:
+      - '29092'
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: '1'
+      KAFKA_MIN_INSYNC_REPLICAS: '1'
+
+  kafka-ui:
+    container_name: kafka-ui
+    image: provectuslabs/kafka-ui
+    ports:
+      - '8080:8080'
+    environment:
+      DYNAMIC_CONFIG_ENABLED: true
+
+volumes:
+  postgres_data:

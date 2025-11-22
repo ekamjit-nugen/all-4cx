@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "c0eb00cd8253ad5f0df9db316752f7e5"
+application_url = "https://boss-semiconductor-wins-iraqi.trycloudflare.com"
+embedded = true
+name = "chatbot-4"
+handle = "chatbot-182"
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "rockzeus.myshopify.com"
+include_config_on_deploy = true
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://boss-semiconductor-wins-iraqi.trycloudflare.com/auth/callback",
+  "https://boss-semiconductor-wins-iraqi.trycloudflare.com/auth/shopify/callback",
+  "https://boss-semiconductor-wins-iraqi.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
